@@ -1,0 +1,11 @@
+header {
+    background-color: $main;
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 2em;
+    box-shadow: $box-shadow;
+}
+
+header .titulo{
+    font-size: 2.5rem;
+}

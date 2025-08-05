@@ -1,0 +1,33 @@
+main {
+    padding: 2rem;
+}
+.main-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.grid-item {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    box-shadow: $box-shadow;
+    border-radius: .75em;
+    padding: .75em 1em;
+    transition: all .5s;
+}
+
+.grid-item p {
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.grid-item i {
+    font-size: 1.1em;
+}
+
+.grid-item:hover {
+    background-color: $main;
+    transform: scale(1.05);
+    box-shadow: $box-shadow-expand;
+}
