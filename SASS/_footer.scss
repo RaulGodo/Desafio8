@@ -1,0 +1,32 @@
+footer {
+    background-color: #fee801; /* Color de fondo del footer */
+    color: $dark; /* Color del texto del footer */
+    text-align: center; /* Centrar el texto */
+    padding: 1em; /* Espacio interno */
+    position: relative; /* Posicionamiento relativo para el botón */
+    font-family: "Poppins", sans-serif;
+
+
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        margin-top: 0.5em;
+
+        button {
+            background-color: #fee801; // mismo color que el footer
+            border: none;
+            font-size: 1.5em;
+            color: $dark;
+            cursor: pointer;
+            padding: 0.5em;
+            border-radius: 50%;
+            transition: background 0.3s;
+
+            &:hover {
+                background-color: darken(#fee801, 10%);
+            }
+        }
+    }
+}
+    

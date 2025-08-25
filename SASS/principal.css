@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -118,4 +119,39 @@ main {
   .grid-item:nth-child(3) {
     grid-column: 3/5;
   }
+}
+nav {
+  background-color: #fee801; /* Elige el color que prefieras */
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #fee801; /* Color de fondo del footer */
+  color: #27292b; /* Color del texto del footer */
+  text-align: center; /* Centrar el texto */
+  padding: 1em; /* Espacio interno */
+  position: relative; /* Posicionamiento relativo para el botón */
+  font-family: "Poppins", sans-serif;
+}
+footer .footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 0.5em;
+}
+footer .footer-social button {
+  background-color: #fee801;
+  border: none;
+  font-size: 1.5em;
+  color: #27292b;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+footer .footer-social button:hover {
+  background-color: rgb(203.2, 185.6, 0.8);
 }/*# sourceMappingURL=principal.css.map */
