@@ -155,3 +155,44 @@ footer .footer-social button {
 footer .footer-social button:hover {
   background-color: rgb(203.2, 185.6, 0.8);
 }/*# sourceMappingURL=principal.css.map */
+
+
+
+/* Modo oscuro para toda la página */
+body.dark-mode {
+    background-color: #181818;
+    color: #f1f1f1;
+}
+
+body.dark-mode header,
+body.dark-mode nav,
+body.dark-mode footer {
+    background-color: #222 !important;
+    color: #f1f1f1 !important;
+}
+
+body.dark-mode a,
+body.dark-mode .navbar-brand,
+body.dark-mode .nav-link,
+body.dark-mode .dropdown-item {
+    color: #f1f1f1 !important;
+}
+
+body.dark-mode .main-grid .grid-item {
+    background-color: #222;
+    color: #f1f1f1;
+}
+
+body.dark-mode .grid-item:hover {
+    background-color: #333;
+}
+
+body.dark-mode .footer-social button {
+    background-color: #222;
+    color: #f1f1f1;
+}
+
+body.dark-mode .footer-social button:hover {
+    background-color: #333;
+}
+
